@@ -3,11 +3,10 @@
     height: 100%;
     background-color: #1E2A3E;
     border-radius: 30px;
-    background-color: #e5e5f7;
+    background-color: #9f009c;
     opacity: 0.8;
-    background-color: #0495a5;
-    opacity: 0.8;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0495a5 17px ), repeating-linear-gradient( #ff000055, #ff0000 );
+    background-image: radial-gradient(circle at center center, #001aad, #9f009c), repeating-radial-gradient(circle at center center, #001aad, #001aad, 7px, transparent 14px, transparent 7px);
+    background-blend-mode: multiply;
 }
 
 .flex { 
