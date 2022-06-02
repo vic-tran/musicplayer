@@ -47,7 +47,7 @@ export default function Player() {
         total={tracks} 
         currentIndex={currentIndex} 
         setCurrentIndex={setCurrentIndex}/>
-        <Widgets artistID={currentTrack?.album} />
+        <Widgets artistID={currentTrack?.album?.artists[0]?.id} />
       </div>
 
       <div className="right-player-body">
